@@ -19,4 +19,17 @@
 # Read == all, first, last, where, find, find_by, etc
 # Update == save, Update
 # Delete == destroy
-# _____________
+# # _____________
+# Connecting two sets of data
+# has_one
+# has_many
+# belongs_to
+# _____________________
+#
+# Rails.env - tests for development, test, or production
+# you'll see if statements like "if Rails.env == "development"" etc.
+# # _____________________
+# data validation
+# you can make sure data entered falls within certain paramenters.
+# validates :name, presence: true, length: {minimum: 2} uniqueness: true
+# ______________________
