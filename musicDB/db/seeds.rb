@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Genre.new(name: "Pop").save
+
+Artist.new(name: "Taylor Swift", Instrument: "Acoustic Guitar, Vocals, Piano").save
+
+Song.new (name: "Mine", artist_id: 1).save
